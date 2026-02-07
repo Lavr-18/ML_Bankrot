@@ -1,0 +1,15 @@
+# bankruptcy_project/requirements.txt
+# Основные библиотеки для анализа и ML
+pandas==2.2.0
+numpy==1.26.0
+scikit-learn==1.4.0
+matplotlib==3.8.0
+seaborn==0.13.0
+
+# Алгоритмы бустинга (с поддержкой GPU)
+catboost==1.2.2
+xgboost==2.0.0
+
+# Интерпретируемость и балансировка классов
+shap==0.44.0
+imbalanced-learn==0.12.0
